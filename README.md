@@ -2,47 +2,17 @@
 
 > A Polymer element with a set of scalable social media icons
 
-![alt tag](http://hejty.github.io/demos/social-media-icons/preview.png)
+![alt tag](http://ddn0.github.io/ddn0/social-media-icons/preview.png)
 
 ## Demo
 
-[Check it live!](http://hejty.github.io/hejty/social-media-icons/)
-
-## Install
-
-Install the component using [Bower](http://bower.io/):
-
-```sh
-$ bower install social-media-icons --save
-```
-
-Or [download as ZIP](https://github.com/hejty/social-media-icons/archive/master.zip).
-
-## Usage
-
-1. Import Web Components' polyfill:
-
-    ```html
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcomponentsjs/0.5.2/webcomponents.min.js"></script>
-    ```
-
-2. Import Custom Element:
-
-    ```html
-    <link rel="import" href="social-media-icons/social-media-icons.html">
-    ```
-
-3. Start using it!
-
-    ```html
-    <social-media-icons></social-media-icons>
-    ```
+[Check it live!](http://ddn0.github.io/ddn0/social-media-icons/)
 
 ## Options
 
 Attribute       | Options                                                   | Default                       | Description
 ---             | ---                                                       | ---                           | ---
-`icon`         	| `behance`, `dribbble`, `facebook`, `flipboard`, `github`, `googleplus`, `instagram`, `jsfiddle`, `lastfm`, `linkedin`, `medium`, `quora`, `pinterest`, `skype`, `spotify`, `stumbleupon`, `tumblr`, `twitter`, `youtube`, `vimeo`, `vine`    | `github`                      | The `icon` attribute grabs a vector-shaped logo of social media you choose
+`icon`         	| `behance`, `dribbble`, `facebook`, `github`, `googleplus`, `instagram`, `lastfm`, `pinterest`, `tumblr`, `twitter`    | `github`                      | The `icon` attribute grabs a vector-shaped logo of social media you choose
 `size`          | *int*                                                     | `32`                         	| The `size` attribute sets a size of an element
 `color`         | *hex*                                                  	| -     						| The `color` attribute fills the shape with a color you choose
 `href`          | *string*                                                  | -                             | The `href` attribute sets the target URL
@@ -63,7 +33,7 @@ Attribute       | Options                                                   | De
 
 ## History
 
-For detailed changelog, check [Releases](https://github.com/hejty/social-media-icons/releases).
+For detailed changelog, check [Releases](https://github.com/ddn0/social-media-icons/releases).
 
 ## License
 
